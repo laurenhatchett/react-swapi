@@ -1,40 +1,40 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
 .NavBar{
+  text-align: center;
+  color:white;
+  background-color: #031F42;
+}
 
+a {
+  color:white
 }
 
 .starship-list-container {
-  border: 1px solid black
+  display: inline-flex;
+  background-color: #033D42;
+  font-size: 30px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 30px;
+  margin: 30px;
+  height: 100px;
+  width: 300px;
 }
+.starship-details-container{
+  border: 1px solid #033D42;
+  background-color: #033D42;
+  position: relative;
+  color: white;
+  width: 400px;
+  margin: 150px;
+}
+.return-link {
+  color:white
+}
+
+
+
+
 
 @keyframes App-logo-spin {
   from {
